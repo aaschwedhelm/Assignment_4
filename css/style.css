@@ -1,0 +1,143 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  height:100%;
+}
+
+#map {
+  width: 50%;
+  float:left;
+  height: 100%;
+}
+
+#sideBar {
+      	width: 50%;
+      	float:right;
+      	background:grey;
+      	height:100vh;
+      	color: white;
+        text-align: center;
+        font-family: sans-serif;
+      	padding:20px 16px;
+        box-sizing: border-box;
+}
+
+h1 {
+        font-size: 40px;
+      	margin-top:0;
+        color: white;
+}
+
+h2 {
+        font-size: 16px;
+        color: white;
+        padding-bottom: 20px;
+        text-align: left;
+}
+
+/*landmark divs*/
+
+.landmark {
+      	background: black;
+        color: black;
+      	padding: 16px;
+      	border-radius: 30px;
+      	margin-bottom: 16px;
+}
+
+
+.landmarkTitle {
+      	font-size: 26px;
+        text-align: left;
+      	font-weight: bold;
+        font-color: black;
+}
+
+.landmarkInfo {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 11px;
+        color: white;
+}
+
+.landmarkPic {
+        width: 14px;
+        height: 14px;
+        background: black;
+        color: black;
+        padding: 16px;
+        border-radius: 16px;
+        margin-bottom: 16px;
+
+}
+.reset {
+        color: white;
+        background: red;
+        border-radius: 10px;
+        border-color: red;
+        width: 50px;
+        height: 30px;
+        font-size: 15px;
+        padding-bottom: 20px;
+}
+
+.Pic1 {
+        background: grey;
+        color: black;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        width: 100px;
+        height: 80px;
+        float: right;
+}
+.Pic2 {
+        background: grey;
+        color: black;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        width: 100px;
+        height: 80px;
+        float: right;
+}
+.Pic3 {
+        background: grey;
+        color: black;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        width: 100px;
+        height: 80px;
+        float: right;
+}
+.Pic4 {
+        background: grey;
+        color: black;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        width: 100px;
+        height: 80px;
+        float: right;
+}
+.Pic5 {
+        background: grey;
+        color: black;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        width: 100px;
+        height: 80px;
+        float: right;
+}
+.Pic6 {
+        background: grey;
+        color: black;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        width: 100px;
+        height: 80px;
+        float: right;
+}
