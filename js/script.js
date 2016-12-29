@@ -49,11 +49,11 @@ var beachIcon = L.icon({
 
 //Landmark 1
 var anasHouseMarker = L.marker([41.37387, 2.14488], {icon: aptIcon}).addTo(map);
-anasHouseMarker.bindPopup("Ana & Elias's Apartment");
+anasHouseMarker.bindPopup("Ana & Elias's Apartment (photo of nearby: amadalvarez)");
 
 //Landmark 2
 var GaudiParkMarker = L.marker([41.41343, 2.15318], {icon: parksIcon}).addTo(map);
-GaudiParkMarker.bindPopup("Gaudi Park");
+GaudiParkMarker.bindPopup("Gaudi Park (photo by Bernard Gagnon)");
 
 //Landmark 3
 var MontjuicParkMarker = L.marker([41.36492, 2.15740], {icon: parksIcon}).addTo(map);
@@ -93,14 +93,14 @@ $('.anasHouse').on('click',function(){
   map.panTo(new L.LatLng(41.37387, 2.14488),{animate: true, duration: 1.0});
 });
 $('.anasHouse').on('click',function(){
-	$('.Pic1').css('background','url(https://www.bbvavivienda.com/images/alquiler/000800-01/000800-01.jpg)').css('background-size', 'cover');
+	$('.Pic1').css('background','url(https://en.wikipedia.org/wiki/Carrer_del_Consell_de_Cent,_Barcelona#/media/File:Falguera-bcn-conCent81-2210-01red.jpg)').css('background-size', 'cover');
 });
 //Listener 2
 $('.GaudiPark').on('click',function(){
   map.panTo(new L.LatLng(41.41343, 2.15318),{animate: true, duration: 1.0});
 });
 $('.GaudiPark').on('click',function(){
-$('.Pic2').css('background','url(http://www.stare.ca/images/barcelona_sunset.jpg)').css('background-size', 'cover');
+$('.Pic2').css('background','url(https://en.wikipedia.org/wiki/Park_G%C3%BCell#/media/File:Park_G%C3%BCell_02.jpg)').css('background-size', 'cover');
 });
 //listener 3
 $('.MontjuicPark').on('click',function(){
