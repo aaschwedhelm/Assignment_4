@@ -49,11 +49,11 @@ var beachIcon = L.icon({
 
 //Landmark 1
 var anasHouseMarker = L.marker([41.37387, 2.14488], {icon: aptIcon}).addTo(map);
-anasHouseMarker.bindPopup("Ana & Elias's Apartment (photo of nearby area by amadalvarez)");
+anasHouseMarker.bindPopup("Ana & Elias's Apartment");
 
 //Landmark 2
 var GaudiParkMarker = L.marker([41.41343, 2.15318], {icon: parksIcon}).addTo(map);
-GaudiParkMarker.bindPopup("Gaudi Park (photo by Bernard Gagnon)");
+GaudiParkMarker.bindPopup("Gaudi Park");
 
 //Landmark 3
 var MontjuicParkMarker = L.marker([41.36492, 2.15740], {icon: parksIcon}).addTo(map);
